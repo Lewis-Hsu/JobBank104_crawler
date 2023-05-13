@@ -1,6 +1,6 @@
 class JobBank104Config:
 
-    class LoginInfo:
+    class UserInfo:
         user = ""
         password = ""
         name = ""

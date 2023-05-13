@@ -11,8 +11,8 @@ class LoginPage:
         self.timeout = 10
         self.frequency = 1
         self.wait = WebDriverWait(self.driver, self.timeout, self.frequency)
-        self.user = JobBank104Config.LoginInfo.user
-        self.password = JobBank104Config.LoginInfo.password
+        self.user = JobBank104Config.UserInfo.user
+        self.password = JobBank104Config.UserInfo.password
 
     def enter_user_name(self):
         # enter user name
